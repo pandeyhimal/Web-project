@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Personal portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        body {
+            /* background-color: rgb(73, 62, 137); */
+            color: rgb(241, 238, 238);
+            /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+            background-image: url('image.png');
+            background-repeat: repeat;
+            background-size: cover;
+
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(56, 67, 90);
+        }
+        .nav .right .sas
+        {
+            &:hover{
+                background-color: #13ef3f;
+            }
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            /* background-color: rgb(22, 19, 24);
+            text-decoration:solid; */
+            
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+             
+        }
+
+        .left {
+            background-color: rgb(42, 49, 147);
+            font-size: 1.5rem;
+            padding: 20px;
+            margin: 3px 0 0 -107px;
+        }
+
+        .right ul li a {
+            color: white;
+            text-decoration: none;
+            /* text-transform: capitalize; */
+            font-size: 20px;
+           
+        }
+
+        .right ul li a:hover {
+            color: #9c98a0;
+            /* background-color: rgba(43, 26, 104, 0.306); */
+            font-size: 1.1rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 200px 0;
+        }
+
+        .firstSection>div {
+            width: 20%;
+        }
+
+        .leftSection {
+            /* background-color: blueviolet; */
+            color: rgb(241, 247, 245);
+            text-decoration: none;
+            font-size: 3rem;
+            margin: 25px 595px 181px -200px;
+            width: fit-content;
+            text-decoration: none;
+        }
+
+        .rightSection {
+            /* background-color: blueviolet; */
+            color: #fff;
+            width: fit-content;
+            font-size: 1.5rem;
+            margin: 0px 400px 300px 200px;
+            text-decoration: none;
+        }
+
+        .rightSection img {
+            width: 390px;
+            height: 410px;
+
+        }
+
+        .purple {
+            color: rgb(13, 246, 242);
+        }
+
+        /* Basic styling for footer */
+        footer {
+            background-color: #848087;
+            color: #fff;
+            padding: 20px 0;
+            text-align: left;
+        }
+
+        .LeftContainer {
+            max-width: 550px;
+            margin: 5px 150px 50px 50px;
+            color: #19062c;
+        }
+
+        .LeftContainer p {
+            font-size: 1.30rem;
+            color: #19062c;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+        .RightContainer {
+            /* background-color: #eeebf1; */
+            margin: -320px 0 auto 900px;
+            /* max-width: 600px; */
+            color: #19062c;
+        }
+
+        .RightContainer a {
+            margin: -5px;
+        }
+
+        /* footer social media links icon */
+        .container {
+            margin-top: -10px;
+            color: rgb(17, 18, 19);
+        }
+
+        .container a {
+            margin: 8px;
+            padding-bottom: 5px;
+        }
+
+        .container a:hover {
+            opacity: 0.6;
+        }
+
+        .fa {
+            font-size: 10px;
+        }
+
+        .fa:hover {
+            opacity: 0.5;
+        }
+
+        .copy {
+            color: #070707;
+            text-align: center;
+            /* background-color: #fcfbfc; */
+        }
+
+        .alignment {
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color: rgb(6, 6, 6);
+            margin-bottom: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Himal's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</li>
+                    <li><a href="about.html">About</li>
+                    <li><a href="service.html">Services</li>
+                    <li><a href="project.html">Projects</li>
+                    <li><a href="contact.html">Contact Me</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Himal Pandey</span>
+                and I am an <span class="purple">BICTe </span>student currently studying in 3rd semester.
+            </div>
+        </section>
+        <div class="rightSection">
+            <h1> My Introduction!</h1>
+            <p style="font-size: 2rem; font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                Hey everyone! I'm a passionate computer science student on a mission to conquer the IT world. With a knack for design and a solid grasp of computer hardware, I'm blending my studies with real-world expertise to make a mark in the tech industry. Let's connect and create something extraordinary together!
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h2> Contact Me</h2>
+            <div class="alignment">
+            <a href="https://www.facebook.com/himalpandeyl" class="fa-brands fa-facebook" style="font-size: 25px; color: #5205f8;"></a>
+            <a href="https://www.instagram.com/_himalpandey/?hl=en" class="fa-brands fa-instagram" style="font-size: 25px; color: #fc0404;"></a>
+            <a href="https://www.linkedin.com/in/himal-pandey-297988225" class="fa-brands fa-linkedin" style="font-size: 25px; color: #4606f5;"></a>
+            <a href="https://github.com/pandeyhimal" class="fa-brands fa-github" style="font-size: 25px; color: #00080d;"></a>
+            <a href="https://web.whatsapp.com/" class="fa-brands fa-whatsapp" style="font-size: 25px; color: #05f87a;"></a>
+            </div>
+        </div>
+        <div class="copy"> himal &copy; 2024 All rights reserved!</div>
+    </footer>
+</body>
+
+</html>

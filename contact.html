@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Contact me</title>
+    <!-- /* Basic styling for header and navigation */ -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: rgb(73, 62, 137);
+            color: rgb(241, 238, 238);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-image: url('image.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(56, 67, 90);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            /* background-color: rgb(22, 19, 24);
+            text-decoration:solid; */
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        .left {
+            background-color: rgb(42, 49, 147);
+            font-size: 1.5rem;
+            padding: 20px;
+            margin: 3px 0 0 -120px;
+        }
+
+        .right ul li a {
+            color: white;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+
+        .right ul li a:hover {
+            color: #9c98a0;
+            /* background-color: rgba(43, 26, 104, 0.306); */
+            font-size: 1.1rem;
+        }
+
+        .texts {
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .adjust{
+            margin: 200px 0 -800px 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input,
+        textarea {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #50a0f7;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #017afb;
+        }
+
+        .contact-info {
+            color: #fff;
+            text-align: justify;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        .contact-info p {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        /* footer styles */
+        .container1 {
+            margin: 1080px 0 0 0;
+            color: rgb(17, 18, 19);
+            background-color: #575657;
+
+        }
+
+        .container1 a {
+            margin-top: -5px;
+            margin: 8px;
+            padding-bottom: 5px;
+        }
+
+        .container1 a:hover {
+            opacity: 0.6;
+        }
+
+        .fa {
+            font-size: 30px;
+        }
+
+        .fa:hover {
+            opacity: 0.5;
+        }
+
+        .copy {
+            color: #070707;
+            text-align: center;
+            background-color: #fcfbfc;
+        }
+
+        .alignment {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Himal's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</li>
+                    <li><a href="about.html">About</li>
+                    <li><a href="service.html">Services</li>
+                    <li><a href="project.html">Projects</li>
+                    <li><a href="contact.html">Contact Me</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="adjust">
+        <div class="container">
+            <h1>Contact me</h1>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <br>
+            <p> Incase of direct contact. You can contact me with below information.</p>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Details</h2>
+            <p>Email: himalpandey2002@gamil.com</p>
+            <p>Phone: 9866137449</p>
+            <p>Address: Sanothimi Bhaktapur, Nepal</p>
+        </div>
+        <script src="script.js"></script>
+    </main>
+        <footer>
+            <div class="container1">
+                <h2 style="text-align: center; color: #fcfbfc;"> Contact Me</h2>
+                <div class="alignment">
+                    <a href="https://www.facebook.com/himalpandeyl" class="fa-brands fa-facebook"
+                        style="font-size: 25px; color: #088ff7;"></a>
+                    <a href="https://www.instagram.com/_himalpandey/?hl=en" class="fa-brands fa-instagram"
+                        style="font-size: 25px; color: #f10e52;"></a>
+                    <a href="https://www.linkedin.com/in/himal-pandey-297988225" class="fa-brands fa-linkedin"
+                        style="font-size: 25px; color: #0584e5;"></a>
+                    <a href="https://github.com/pandeyhimal" class="fa-brands fa-github"
+                        style="font-size: 25px; color: #000c14;"></a>
+                    <a href="https://web.whatsapp.com/" class="fa-brands fa-whatsapp" style="font-size: 25px; color: #04f6ad;"></a>
+                </div>
+            </div>
+            <div class="copy"> himal &copy; 2024 All rights reserved!</div>
+        </footer>
+</body>
+
+</html>
