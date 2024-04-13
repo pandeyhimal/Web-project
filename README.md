@@ -1,2 +1,2 @@
 # Web-project
-This is the personal portfolio.
+This is the project of web technology on topic of personal portfolio.
